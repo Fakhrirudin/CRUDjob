@@ -19,7 +19,7 @@ export default function EditJobForm({ id, title, company, description, type, loc
         e.preventDefault();
 
         try {
-            const res = await fetch(`https://amazing-puffpuff-8c01b8.netlify.app/api/jobs`, {
+            const res = await fetch(`https://amazing-puffpuff-8c01b8.netlify.app/api/jobs/${id}`, {
                 method:"PUT",
                 headers: {
                     "Content-type": "application/json",
