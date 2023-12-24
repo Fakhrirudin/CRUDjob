@@ -23,7 +23,7 @@ export default function AddJob() {
         }
 
         try {
-            const res = await fetch('http://localhost:3000/api/jobs', {
+            const res = await fetch('https://amazing-puffpuff-8c01b8.netlify.app', {
                 method: "POST",
                 headers: {
                     "Content-type":"application/json"
