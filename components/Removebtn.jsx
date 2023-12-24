@@ -9,7 +9,7 @@ export default function Removebtn({id}) {
         const confirmed = confirm('Yakin???');
 
         if (confirmed) {
-            const res = await fetch(`http://localhost:3000/api/jobs?id=${id}`, {
+            const res = await fetch(`https://amazing-puffpuff-8c01b8.netlify.app`, {
                 method: "DELETE"
             });
             if (res.ok) {
