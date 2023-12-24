@@ -23,7 +23,7 @@ export default function AddJob() {
         }
 
         try {
-            const res = await fetch('https://amazing-puffpuff-8c01b8.netlify.app', {
+            const res = await fetch('https://amazing-puffpuff-8c01b8.netlify.app/api/jobs', {
                 method: "POST",
                 headers: {
                     "Content-type":"application/json"
