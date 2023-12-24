@@ -2,7 +2,7 @@ import EditJobForm from "@/components/EditJobForm";
 
 const getJobById = async (id) => {
     try {
-        const res = await fetch(`https://amazing-puffpuff-8c01b8.netlify.app`, {
+        const res = await fetch(`https://amazing-puffpuff-8c01b8.netlify.app/api/jobs`, {
             cache:
                 'no-store'
         });
