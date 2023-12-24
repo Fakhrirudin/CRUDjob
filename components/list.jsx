@@ -4,7 +4,7 @@ import { HiPencilAlt } from "react-icons/hi";
 
 const getJobs = async () => {
     try {
-        const res = await fetch("http://localhost:3000/api/jobs", {
+        const res = await fetch("https://amazing-puffpuff-8c01b8.netlify.app", {
             cache: "no-store",
         });
 
